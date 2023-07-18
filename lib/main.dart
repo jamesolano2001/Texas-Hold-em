@@ -191,7 +191,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: (){
                   Navigator.pushNamed(context, '/second');
                 },
-                child: Text('Task 2'),)
+                child: Text('Hand Matchup'),)
             ),
           ],
         ),

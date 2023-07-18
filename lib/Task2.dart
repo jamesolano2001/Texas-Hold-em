@@ -19,7 +19,7 @@ class _Task2 extends State<Task2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Task 2'),
+        title: Text('Hand Matchup'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
