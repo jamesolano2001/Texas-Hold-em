@@ -8,7 +8,7 @@ Run "flutter run" on a command console.
 
 ## Hand Type Evaluator
 
-Format of cards: [H,C,S,D][1,2,3,4,5,6,7,8,9,J,Q,K,A] (ex. D1)
+Format of cards: [H,C,S,D][2,3,4,5,6,7,8,9,T,J,Q,K,A] (ex. D6)
 \
 Input a valid hand in order to see which type of hand it is (i.e. Two of Kinds, Full house, etc)
 
