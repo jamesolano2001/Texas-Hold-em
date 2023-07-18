@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(title: 'Task 1'),
       routes: {
         '/second': (context) => Task2(),
-        '/third' : (context) => Task3(),
       },
     );
   }
@@ -193,14 +192,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.pushNamed(context, '/second');
                 },
                 child: Text('Task 2'),)
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: ElevatedButton(
-                onPressed: (){
-                  Navigator.pushNamed(context, '/third');
-                },
-                child: Text('Task 3'),)
             ),
           ],
         ),
