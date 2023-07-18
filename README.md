@@ -1,16 +1,17 @@
-# a9
+# Simple Texas Hold-em Hand Evaluator
 
-A new Flutter project.
+A Flutter Project on a simple hand evaluator.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run "flutter run" on a command console.
 
-A few resources to get you started if this is your first Flutter project:
+## Hand Type Evaluator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Format of cards: [H,C,S,D][1,2,3,4,5,6,7,8,9,J,Q,K,A] (ex. D1)
+\
+Input a valid hand in order to see which type of hand it is (i.e. Two of Kinds, Full house, etc)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hand Match-up
+
+Click the random hand button to get 2 random hands of cards and see who beats who.
