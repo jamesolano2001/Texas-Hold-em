@@ -1,0 +1,28 @@
+^C:\USERS\DIGIT\ONEDRIVE\DESKTOP\TEXASHOLDEM\A9\BUILD\WINDOWS\CMAKEFILES\0A2E5DECAED78C03D24B666FB1F7082C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\digit\OneDrive\Desktop\flutter PROJECT_DIR=C:\Users\digit\OneDrive\Desktop\TexasHoldEm\a9 FLUTTER_ROOT=C:\Users\digit\OneDrive\Desktop\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\digit\OneDrive\Desktop\TexasHoldEm\a9\windows\flutter\ephemeral PROJECT_DIR=C:\Users\digit\OneDrive\Desktop\TexasHoldEm\a9 FLUTTER_TARGET=C:\Users\digit\OneDrive\Desktop\TexasHoldEm\a9\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC85MGZhM2FlMjhmZTZkZGFlZTFhZjJjMTIwZjAxZTUwMjAxYzE0MDFiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\digit\OneDrive\Desktop\TexasHoldEm\a9\.dart_tool\package_config.json C:/Users/digit/OneDrive/Desktop/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIGIT\ONEDRIVE\DESKTOP\TEXASHOLDEM\A9\BUILD\WINDOWS\CMAKEFILES\2BDB3CC72D6AEEAED0730F0E4A49FAD1\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIGIT\ONEDRIVE\DESKTOP\TEXASHOLDEM\A9\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/digit/OneDrive/Desktop/TexasHoldEm/a9/windows -BC:/Users/digit/OneDrive/Desktop/TexasHoldEm/a9/build/windows --check-stamp-file C:/Users/digit/OneDrive/Desktop/TexasHoldEm/a9/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
